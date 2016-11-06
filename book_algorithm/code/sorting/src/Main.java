@@ -12,17 +12,18 @@ public class Main {
     private static Selection selector = new Selection();
     private static Insertion insertor = new Insertion();
     private static Shell shell = new Shell();
+    private static Merge merge = new Merge();
 
     public static void main(String args[]) {
         try {
             //管道输入
-            FileInputStream input = new FileInputStream(words);
+            FileInputStream input = new FileInputStream(tiny);
             System.setIn(input);
 
             //读入、排序、显示
             String[] a = StdIn.readAllStrings();
             StopWatch timer = new StopWatch(); //计时
-            insertor.sort(a);
+            merge.sort(a);
             double time = timer.elapsedTime();
             Untils.show(a);
             System.out.println("Runing time: " + time + "ms");

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/shellsort.iml" filepath="$PROJECT_DIR$/shellsort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searching.iml" filepath="$PROJECT_DIR$/searching.iml" />
     </modules>
   </component>
 </project>
